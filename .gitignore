@@ -1,0 +1,26 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+terraform.tfvars
+*.auto.tfvars
+
+
+# Secrets
+secrets.yaml
+secret.env
+*.pem
+*.key
+*.crt
+*.jks
+
+
+# Helm or K8s temp
+charts/
+*.tgz
+values.yaml.backup
+.kube/
+.kubectl_cache/
+.kubeconfig
